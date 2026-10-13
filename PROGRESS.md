@@ -56,46 +56,8 @@ I do not need to solve every question before progressing. Unfinished questions w
 
 ---
 
-## 1. Current Status
 
-| Item | Current Status |
-|---|---|
-| Overall roadmap | In progress |
-| Current level | Level 0 — verify existing work |
-| Current language | C |
-| Existing code | `C/level0/Q1_in_out_var.c` |
-| Completed levels | Not yet verified |
-| Current learning target | Establish baseline and verify Level 0 |
-| Daily study target | 2 hours |
-| Revision strategy | Same-day recall + previous-week revision |
-| Progress last updated | 2026-10-13 |
-
-**Important:** An existing source file does not automatically mean its question is complete. Verify the code, test it, and demonstrate understanding before changing its status.
-
----
-
-## 2. Status Definitions
-
-Use these statuses consistently throughout the roadmap.
-
-- [ ] **Not Started** — No meaningful work yet.
-- [ ] **In Progress** — Learning concepts and attempting problems.
-- [ ] **Needs Revision** — Completed some work but have important gaps.
-- [ ] **Ready to Advance** — Core concepts understood and representative problems solved independently.
-- [ ] **Completed** — Completion criteria satisfied and progress recorded.
-
-For individual problems, use:
-
-- **Solved Independently** — Solved and tested without copying a solution.
-- **Solved With Help** — Needed hints, explanations, or substantial corrections.
-- **Needs Revision** — Previously solved, but unable to reproduce or explain confidently.
-- **Skipped / Backlog** — Deliberately deferred for later practice.
-
-Do not confuse *Ready to Advance* with *Completed*: the former is a readiness checkpoint; the latter means the level's agreed completion criteria have been met.
-
----
-
-## 3. Main Roadmap
+## 1. Main Roadmap
 
 The following is a provisional tracker. Confirm individual level titles against the reference PDFs before treating this table as the definitive syllabus.
 
@@ -129,7 +91,7 @@ The following is a provisional tracker. Confirm individual level titles against 
 
 ---
 
-## 4. Level 9 — Library Exploration
+## 2. Level 9 — Library Exploration
 
 Track library exploration independently from ordinary problem completion.
 
@@ -138,20 +100,6 @@ Track library exploration independently from ordinary problem completion.
 | C | String functions, character functions, file handling, memory and other relevant standard-library functions | Not Started |
 | Java | String methods, standard-library APIs, collections and method arguments | Not Started |
 | Python | String methods, built-ins, standard-library modules and collection methods | Not Started |
-
-For each important function or method, record:
-
-- [ ] Purpose and suitable use cases
-- [ ] Arguments, types and optional parameters
-- [ ] Return value and return type
-- [ ] Whether the original object or data is modified
-- [ ] Empty input and boundary cases
-- [ ] Invalid input and error/exception behavior
-- [ ] Related methods and alternative approaches
-- [ ] Differences between C, Java and Python
-- [ ] A working example and tests
-
-Do not try to investigate every library function in existence. Prioritize functions encountered in the roadmap and expand coverage as needed.
 
 ---
 
@@ -203,23 +151,6 @@ The final consolidation stage should be completed after the relevant concepts ha
 
 ---
 
-## 6. Problem Selection and Level Completion
-
-I do not need to solve every problem before advancing.
-
-For each level:
-
-- [ ] Review the level's objectives.
-- [ ] Study the essential concepts.
-- [ ] Solve representative basic problems independently.
-- [ ] Solve at least one or two variations or edge-case problems where appropriate.
-- [ ] Explain the approach and complexity when relevant.
-- [ ] Test the implementation.
-- [ ] Investigate language-specific behavior where relevant.
-- [ ] Record mistakes and unresolved questions.
-- [ ] Schedule weak topics for revision.
-- [ ] Decide whether I am ready to advance.
-
 ### Completion decision
 
 A level can be marked **Completed** when:
@@ -235,43 +166,7 @@ The exact number of problems required should depend on the difficulty and breadt
 
 ---
 
-## 7. Problem Backlog
 
-Record unfinished questions here rather than allowing them to block progression unnecessarily.
-
-| Date Added | Language | Level / Question | Reason Deferred | Revisit Date | Status |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
-
-Examples of reasons for deferral:
-
-- Needs a prerequisite concept
-- Requires more practice
-- Unusual edge case
-- Library API not yet understood
-- Extra challenge beyond current objectives
-
----
-
-## 8. Daily Revision Log
-
-Use this section to record the most important learning and revision outcomes.
-
-| Date | New Topics | Same-Day Recall | Previous-Week Revision | GitHub Work |
-|---|---|---|---|---|
-| — | — | — | — | — |
-
-### Daily checklist
-
-- [ ] Practised the day's target concepts.
-- [ ] Recalled the important ideas without notes.
-- [ ] Tested code and corrected errors.
-- [ ] Revisited the scheduled previous-week topics.
-- [ ] Recorded mistakes and questions for later.
-- [ ] Committed meaningful code or documentation changes.
-- [ ] Updated the current level and next target when necessary.
-
----
 
 ## 9. Weekly Review
 
@@ -306,37 +201,6 @@ Use this section to record the most important learning and revision outcomes.
 
 ---
 
-## 10. Language Comparison Notes
-
-Record differences discovered while solving the same problem in C, Java and Python.
-
-| Concept | C | Java | Python | Follow-up |
-|---|---|---|---|---|
-| Strings | — | — | — | — |
-| Arrays / dynamic arrays | — | — | — | — |
-| Memory management | — | — | — | — |
-| Pointers / references | — | — | — | — |
-| Functions / callbacks | — | — | — | — |
-| Object-oriented programming | — | — | — | — |
-| Collections | — | — | — | — |
-| File handling | — | — | — | — |
-| Exceptions / errors | — | — | — | — |
-
-Fill these entries through actual experiments rather than memorizing a comparison table in advance.
-
----
-
-## 11. Next Actions
-
-- [ ] Verify and test `C/level0/Q1_in_out_var.c`.
-- [ ] Confirm the exact introductory level titles and exercises from the PDFs.
-- [ ] Update the main roadmap table as those titles are verified.
-- [ ] Establish the first baseline for C, Java and Python.
-- [ ] Start the next uncompleted level.
-- [ ] Schedule daily recall and previous-week revision.
-- [ ] Update this file after meaningful milestones.
-
----
 
 ## Guiding Principle
 
