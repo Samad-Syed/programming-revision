@@ -44,3 +44,302 @@
 A level can be completed when I understand its core concepts, solve a representative selection of problems independently, test variations, and review my mistakes.
 
 I do not need to solve every question before progressing. Unfinished questions will remain in a backlog for future revision.
+
+
+
+
+# Programming Revision — Progress Tracker
+
+> A progressive, question-driven revision of C, Java, Python, data structures, algorithms, standard libraries, and object-oriented programming.
+>
+> **Core rule:** Understand the concepts, solve representative problems independently, investigate important variations, revise weak areas, and then advance. Completing every question is not mandatory.
+
+---
+
+## 1. Current Status
+
+| Item | Current Status |
+|---|---|
+| Overall roadmap | In progress |
+| Current level | Level 0 — verify existing work |
+| Current language | C |
+| Existing code | `C/level0/Q1_in_out_var.c` |
+| Completed levels | Not yet verified |
+| Current learning target | Establish baseline and verify Level 0 |
+| Daily study target | 2 hours |
+| Revision strategy | Same-day recall + previous-week revision |
+| Progress last updated | 2026-10-13 |
+
+**Important:** An existing source file does not automatically mean its question is complete. Verify the code, test it, and demonstrate understanding before changing its status.
+
+---
+
+## 2. Status Definitions
+
+Use these statuses consistently throughout the roadmap.
+
+- [ ] **Not Started** — No meaningful work yet.
+- [ ] **In Progress** — Learning concepts and attempting problems.
+- [ ] **Needs Revision** — Completed some work but have important gaps.
+- [ ] **Ready to Advance** — Core concepts understood and representative problems solved independently.
+- [ ] **Completed** — Completion criteria satisfied and progress recorded.
+
+For individual problems, use:
+
+- **Solved Independently** — Solved and tested without copying a solution.
+- **Solved With Help** — Needed hints, explanations, or substantial corrections.
+- **Needs Revision** — Previously solved, but unable to reproduce or explain confidently.
+- **Skipped / Backlog** — Deliberately deferred for later practice.
+
+Do not confuse *Ready to Advance* with *Completed*: the former is a readiness checkpoint; the latter means the level's agreed completion criteria have been met.
+
+---
+
+## 3. Main Roadmap
+
+The following is a provisional tracker. Confirm individual level titles against the reference PDFs before treating this table as the definitive syllabus.
+
+| Level | Topic / Coverage | Status | Next Action |
+|---|---|---|---|
+| 0 | Initial programming exercises | In Progress — verify | Test existing C solution and establish baseline |
+| 1–2 | Foundational programming and control flow | Not Started | Verify exact questions |
+| 3–6 | Number problems, functions, Fibonacci and patterns | Not Started | Follow the roadmap documents |
+| 7–8 | Word and string problems | Not Started | Verify exact questions |
+| 9 | Library functions and API exploration | Not Started | Investigate functions through test cases |
+| 10 | Arrays and related collection exercises | Not Started | Verify exact coverage |
+| 11 | Searching | Not Started | Linear search, binary search and variations |
+| 12 | Sorting | Not Started | Bubble, selection and insertion sort |
+| 13 | Recursion | Not Started | Factorial, Fibonacci, strings, arrays and digit problems |
+| 14 | Linked Lists | Not Started | Nodes, traversal, insertion, deletion and reversal |
+| 15 | Stacks | Not Started | Implementations, boundary cases and applications |
+| 16 | Queues | Not Started | Array queues, circular queues and queue applications |
+| 17 | Hashing, Maps and Sets | Not Started | Frequency counting, lookup and collision concepts |
+| 18 | Binary Trees | Not Started | Traversals, level order and height |
+| 19 | Binary Search Trees | Not Started | Search, insertion, minimum, maximum and deletion |
+| 20 | Heaps and Priority Queues | Not Started | Min/max heaps, insertion, extraction and heapify |
+| 21 | Basic Graphs | Not Started | Representations, BFS and DFS |
+
+### Important roadmap notes
+
+1. Level 9 has a separate, more detailed reference document. Use it to explore library functions and their arguments, return values, side effects and edge cases.
+2. The Levels 11–14 document covers searching, sorting, recursion and linked lists.
+3. The Levels 15–21 document covers stacks, queues, hashing, trees, heaps and graphs.
+4. Some introductory level titles above are provisional. Check the original exercises before finalizing their labels.
+5. The language-specific consolidation track is a separate stage after the main progression.
+
+---
+
+## 4. Level 9 — Library Exploration
+
+Track library exploration independently from ordinary problem completion.
+
+| Language | Areas to Investigate | Status |
+|---|---|---|
+| C | String functions, character functions, file handling, memory and other relevant standard-library functions | Not Started |
+| Java | String methods, standard-library APIs, collections and method arguments | Not Started |
+| Python | String methods, built-ins, standard-library modules and collection methods | Not Started |
+
+For each important function or method, record:
+
+- [ ] Purpose and suitable use cases
+- [ ] Arguments, types and optional parameters
+- [ ] Return value and return type
+- [ ] Whether the original object or data is modified
+- [ ] Empty input and boundary cases
+- [ ] Invalid input and error/exception behavior
+- [ ] Related methods and alternative approaches
+- [ ] Differences between C, Java and Python
+- [ ] A working example and tests
+
+Do not try to investigate every library function in existence. Prioritize functions encountered in the roadmap and expand coverage as needed.
+
+---
+
+## 5. Language-Specific Consolidation
+
+The consolidation document contains questions Q177–Q218. Track it separately from Levels 0–21.
+
+### C Consolidation
+
+| Question Range | Focus | Status |
+|---|---|---|
+| Q177–179 | Pointers, pointer arithmetic and pointer-to-pointer | Not Started |
+| Q180–182 | Dynamic memory and dynamic arrays | Not Started |
+| Q183–185 | Structures and linked-list implementation | Not Started |
+| Q186–188 | Function pointers and callbacks | Not Started |
+| Q189–190 | `void *`, memory functions and `qsort()` | Not Started |
+
+### Java Consolidation
+
+| Question Range | Focus | Status |
+|---|---|---|
+| Q191–193 | Classes, constructors and encapsulation | Not Started |
+| Q194–196 | Inheritance, polymorphism and abstract classes | Not Started |
+| Q197–198 | Interfaces and composition | Not Started |
+| Q199–200 | Generics and collections framework | Not Started |
+| Q201–202 | `Comparable`, `Comparator` and iterators | Not Started |
+| Q203 | Lambdas and functional interfaces | Not Started |
+
+### Python Consolidation
+
+| Question Range | Focus | Status |
+|---|---|---|
+| Q204–206 | Classes, methods, properties and validation | Not Started |
+| Q207–209 | Inheritance, MRO and abstract base classes | Not Started |
+| Q210 | Special methods and operator overloading | Not Started |
+| Q211–212 | Iterators and generators | Not Started |
+| Q213–214 | Context managers and dataclasses | Not Started |
+| Q215 | Containers and standard-library data structures | Not Started |
+
+### Final Cross-Language Consolidation
+
+| Question | Focus | Status |
+|---|---|---|
+| Q216 | Student Management System in C, Java and Python | Not Started |
+| Q217 | Compare the three implementations and their architectures | Not Started |
+| Q218 | Complete the language-comparison table | Not Started |
+
+The final consolidation stage should be completed after the relevant concepts have been studied. Do not mark it complete just because the earlier levels have been covered.
+
+---
+
+## 6. Problem Selection and Level Completion
+
+I do not need to solve every problem before advancing.
+
+For each level:
+
+- [ ] Review the level's objectives.
+- [ ] Study the essential concepts.
+- [ ] Solve representative basic problems independently.
+- [ ] Solve at least one or two variations or edge-case problems where appropriate.
+- [ ] Explain the approach and complexity when relevant.
+- [ ] Test the implementation.
+- [ ] Investigate language-specific behavior where relevant.
+- [ ] Record mistakes and unresolved questions.
+- [ ] Schedule weak topics for revision.
+- [ ] Decide whether I am ready to advance.
+
+### Completion decision
+
+A level can be marked **Completed** when:
+
+1. The core concepts are understood.
+2. A representative selection of problems can be solved independently.
+3. The code works for normal cases and relevant edge cases.
+4. Important mistakes have been corrected or recorded for revision.
+5. Unfinished questions have been added to the backlog.
+6. The next level can be approached without major gaps in prerequisites.
+
+The exact number of problems required should depend on the difficulty and breadth of the level rather than a fixed percentage.
+
+---
+
+## 7. Problem Backlog
+
+Record unfinished questions here rather than allowing them to block progression unnecessarily.
+
+| Date Added | Language | Level / Question | Reason Deferred | Revisit Date | Status |
+|---|---|---|---|---|---|
+| — | — | — | — | — | — |
+
+Examples of reasons for deferral:
+
+- Needs a prerequisite concept
+- Requires more practice
+- Unusual edge case
+- Library API not yet understood
+- Extra challenge beyond current objectives
+
+---
+
+## 8. Daily Revision Log
+
+Use this section to record the most important learning and revision outcomes.
+
+| Date | New Topics | Same-Day Recall | Previous-Week Revision | GitHub Work |
+|---|---|---|---|---|
+| — | — | — | — | — |
+
+### Daily checklist
+
+- [ ] Practised the day's target concepts.
+- [ ] Recalled the important ideas without notes.
+- [ ] Tested code and corrected errors.
+- [ ] Revisited the scheduled previous-week topics.
+- [ ] Recorded mistakes and questions for later.
+- [ ] Committed meaningful code or documentation changes.
+- [ ] Updated the current level and next target when necessary.
+
+---
+
+## 9. Weekly Review
+
+**Week starting:** YYYY-MM-DD
+
+### Topics studied
+- 
+
+### Problems solved independently
+- 
+
+### Topics that required help
+- 
+
+### Problems to revisit
+- 
+
+### Previous-week topics successfully recalled
+- 
+
+### Weak areas
+- 
+
+### Levels ready for advancement
+- 
+
+### Next week's targets
+- 
+
+### GitHub milestones
+- 
+
+---
+
+## 10. Language Comparison Notes
+
+Record differences discovered while solving the same problem in C, Java and Python.
+
+| Concept | C | Java | Python | Follow-up |
+|---|---|---|---|---|
+| Strings | — | — | — | — |
+| Arrays / dynamic arrays | — | — | — | — |
+| Memory management | — | — | — | — |
+| Pointers / references | — | — | — | — |
+| Functions / callbacks | — | — | — | — |
+| Object-oriented programming | — | — | — | — |
+| Collections | — | — | — | — |
+| File handling | — | — | — | — |
+| Exceptions / errors | — | — | — | — |
+
+Fill these entries through actual experiments rather than memorizing a comparison table in advance.
+
+---
+
+## 11. Next Actions
+
+- [ ] Verify and test `C/level0/Q1_in_out_var.c`.
+- [ ] Confirm the exact introductory level titles and exercises from the PDFs.
+- [ ] Update the main roadmap table as those titles are verified.
+- [ ] Establish the first baseline for C, Java and Python.
+- [ ] Start the next uncompleted level.
+- [ ] Schedule daily recall and previous-week revision.
+- [ ] Update this file after meaningful milestones.
+
+---
+
+## Guiding Principle
+
+**Progress is measured by what I can understand, implement, explain and recall—not by the number of questions checked off.**
+
+This tracker should remain lightweight enough to maintain consistently. Update it when progress changes, not after every minor edit.
